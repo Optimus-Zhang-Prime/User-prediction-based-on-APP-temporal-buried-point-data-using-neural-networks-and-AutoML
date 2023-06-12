@@ -7,6 +7,7 @@ import time
 import csv
 import sys
 
+
 class neutralnetwork:  # 神经网络类
     def __init__(self, inputnodes, hiddennodes, outputnodes, learngrates):
         self.inputnode = inputnodes  # 节点数
