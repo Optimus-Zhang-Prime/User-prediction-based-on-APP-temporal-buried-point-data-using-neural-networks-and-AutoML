@@ -5,6 +5,7 @@ from sklearn import datasets, naive_bayes
 from sklearn.model_selection import train_test_split
 import csv
 
+
 # 读id
 idx = np.loadtxt(r"C:\Users\14531\Desktop\数据处理.CSV", delimiter=",", usecols=0)
 idx = idx.astype(np.int32)
