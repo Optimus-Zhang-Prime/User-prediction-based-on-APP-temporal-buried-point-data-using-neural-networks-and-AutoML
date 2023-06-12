@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from tpot import TPOTClassifier
 import csv
 
-# 读id
+# 读id 
 idx = np.loadtxt(r"C:\Users\14531\Desktop\数据处理.CSV", delimiter=",", usecols=0)
 idx = idx.astype(np.int32)
 
